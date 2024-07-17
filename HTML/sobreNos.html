@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br"><!--Idioma do HTML-->
+<head>
+    <meta charset="UTF-8"><!--Configuração para acentos e characteres-->
+    <title>Rastreio Xpress</title><!--Título da aba web-->
+    <!--Link do CSS-->
+    <link rel = "stylesheet" href = "/CSS/sobreNos.css">
+</head>
+<body>
+    <header>
+        <!--Logo da página-->
+        <div id = "logo">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACc0lEQVR4nO2ZTWsTURSGL36u/KC1Mue2tRC6cput0oXlnKFKbQz5EaJ73WWpQpJzgt2IK7Grgmv/gF8LrStt1ZUtIgV3CgqKkTMzjRIyic1M2plwX7ib4eS+88x5TzKXGOPk5OTk5JRAVqi1x2sbBOuzTf9o3kFauoCpNhIgVmh7VEBaJouyDiQl2VGJls0ASM86xs9WaGWqjrOpgqf5EHa1D9PXyQZdzB2IieQtL8xYwUd6DRh/QIPOD+Vmhg0SaLVyEIQehDD0yWv6EyaXIKrq3CEr9CSK2WNTrR4wSbRvIMYYW8NpYPoSdEbwZm5BVDrwlum3FfoJ4p8zuYvWP9K353BecAtql07lFqR4r3gYhF6E84IPzf8qayCq040LBWD6rjGDJhZNXkFUVojDeryf2WhZpkXTR9oJrQWhD9kFkV0sxl+jASLUciDWdYRctKybERnFby3GN9Cky+N3Fo/pAsYly7Q+DBAQ2vQEy20v8UsguJEGyNvC7fkTnb+sei0JTDcQENqcquNYp5de07fd2L306NjPUDsR+5ogfilNEE+wHOc1KX6le1roo7FMt/oZanvjNh9r+sfTBBkfwCs4LZ6tVo4oTK/O9No8iNcegRQ6vDSGwHij7/kdBJ8FH2BciqvxmK6ENfTUJFDbS/xSrJdgeSAvELweZXC927DP8NxJEHwX1uBVk0C2QdeimGzEDzu9H8hLYwdCr3cM9GlpTnVpJ9oQgq+0NglI4MW4FiVgSwe77SVY/gtBLwfymr47b3dgug4a49rE8oJnUtCZBkEvL31gibz0/z6NWXTg/6YLGJ9rHJJ2Yj+9nJycTP70B9GqPIh6BqoXAAAAAElFTkSuQmCC" alt = "logo do site">
+            <h2>Rastreio Xpress</h2><!--Título da página-->
+        </div>
+        <!--Fim logo da página-->
+        <!--Barra de navegação-->
+        <nav>
+            <div id = "nav-bar">
+                <ul>
+                    <a href = "/HTML/Index.html"><li class = "menu">Home</li></a><!--Home-->
+                    <a href = "#"><li class = "menu">Sobre nos</li></a><!--sobre nós-->
+                    <a href = "/HTML/parceiros.html"><li class = "menu">Parceiros</li></a><!--Parceiros-->
+                    <a href = "/HTML/ajuda.html"><li class = "menu">Ajuda</li></a><!--Ajuda-->
+                </ul>
+            </div>
+        </nav>
+        <!--Fim da Barra de navegação-->
+        <!--Area de login e cadastro-->
+        <div id = "login">
+            <input type = "button" value = "Entrar" id="entrar"><!--Button login-->
+            <input type = "button" value = "Cadastrar" id="cadastrar"><!--Button Cadastro-->
+        </div>
+        <!--Fim área de login-->
+    </header>
+    <!--Conteudo principal da página-->
+    <main>
+        <!--Título em destaque-->
+        <div id = "titulo-principal">
+            <h1 class = "titulos">Veja como o Rastreio Express pode facilitar sua rotina</h1><!--Título destacando as funcionaliades dos serviços-->
+            <p class = "subtitle-principal">As funcionalidades do rastreio express foram desenvolvidas para ajudar você a organizar a sua logística.</p><!--Texto explicando o objetivo das funcionalidades do rastreio-->
+        </div>
+        <!--Serviços fornecidos pela empresa-->
+        <div id = "servicos">
+            <!--Serviço de rastreio de produtos-->
+            <div id = "pesquisa-produto">
+                <img src = "/Image/search.svg" alt = "Rastreio de produtos"><!--Imagem explicativa do serviço-->
+                <h3 class = "titulos-servicos">Busque por uma encomenda</h3><!--Título explicativo-->
+                <p class = "subtitle">Use o Rastreio Express para encontrar suas encomendas. Basta colar o codigo de rastreio no campo de buscas e aproveitar.</p><!--Descricao do servico-->
+            </div>
+            <!--Serviço de acompanhamento de encomendas-->
+            <div id = "locacao">
+                <img src = "/Image/phone_loc.svg" alt = "Acompanhamento de pedidos"><!--Imagem explicativa do servico-->
+                <h3 class = "titulos-servicos">Acompanhe suas encomendas</h3><!--Titulo explicativo-->
+                <p class = "subtitle">O Rastreio Express foi desenvolvido para facilitar a visualização de suas encomendas. Nada de atualizações misteriosas e difíceis de entender.</p><!--Descrição do serviço-->
+            </div>
+            <div id = "notificacao">
+                <img src = "/Image/notification_bell.svg" alt = "Notificações sobre os pedidos"><!--Imagem explicativa do serviço-->
+                <h3 class = "titulos-servicos">Receba notificações</h3><!--Título explicativo-->
+                <p class = "subtitle">No Rastreio Express você acompanha tudo o que acontece com sua encomenda diretamente no seu e-mail.</p><!--Descrição do serviço-->
+            </div>
+        </div>
+        <!--Descrição do objetivo do Rastreio-->
+        <div id = "descricao-rastreio">
+            <h1 class = "titulos">O Rastreio Express foi desenvolvido especialmente para quem deseja usar uma ferramenta simples e objetiva, sem enrolação.</h1><!--Título explicando o objetivo do rastreio-->
+            <input type = "button" value = "Cadastre-se agora" id = "cadastre"><!--Botão para cadastro de clientes-->
+        </div>
+    </main>
+    <!--Fim do conteudo principal-->
+     <!--Rodape da pagina-->
+     <footer>
+        <div id = "page-footer">
+            <!--Menu de navegação no rodape-->
+            <nav>
+                <div id = "list-footer">
+                    <ul id = "ul-footer">
+                        <a href = "/HTML/Index.html"><li class = "li-footer">Home</li></a><!--Item do menu navegacao-->
+                        <a href = "#"><li class = "li-footer">Sobre nós</li></a><!--Item do menu navegacao-->
+                        <a href = "/HTML/parceiros.html"><li class = "li-footer">Parceiros</li></a><!--Item do menu navegacao-->
+                        <a href = "/HTML/ajuda.html"><li class = "li-footer">Ajuda</li></a><!--Item do menu navegacao-->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </footer>
+    <!--Fim do rodape da pagina-->
+</body>
+</html>

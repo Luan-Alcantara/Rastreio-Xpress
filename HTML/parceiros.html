@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br"><!--Idioma do HTML-->
+<head>
+    <meta charset="UTF-8"><!--Configuração para acentos e characteres-->
+    <title>Rastreio Xpress</title><!--Título da aba web-->
+    <!--Link do CSS-->
+    <link rel = "stylesheet" href = "/CSS/parceiros.css">
+</head>
+    <body>
+        <header>
+            <!--Logo da página-->
+            <div id = "logo">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACc0lEQVR4nO2ZTWsTURSGL36u/KC1Mue2tRC6cput0oXlnKFKbQz5EaJ73WWpQpJzgt2IK7Grgmv/gF8LrStt1ZUtIgV3CgqKkTMzjRIyic1M2plwX7ib4eS+88x5TzKXGOPk5OTk5JRAVqi1x2sbBOuzTf9o3kFauoCpNhIgVmh7VEBaJouyDiQl2VGJls0ASM86xs9WaGWqjrOpgqf5EHa1D9PXyQZdzB2IieQtL8xYwUd6DRh/QIPOD+Vmhg0SaLVyEIQehDD0yWv6EyaXIKrq3CEr9CSK2WNTrR4wSbRvIMYYW8NpYPoSdEbwZm5BVDrwlum3FfoJ4p8zuYvWP9K353BecAtql07lFqR4r3gYhF6E84IPzf8qayCq040LBWD6rjGDJhZNXkFUVojDeryf2WhZpkXTR9oJrQWhD9kFkV0sxl+jASLUciDWdYRctKybERnFby3GN9Cky+N3Fo/pAsYly7Q+DBAQ2vQEy20v8UsguJEGyNvC7fkTnb+sei0JTDcQENqcquNYp5de07fd2L306NjPUDsR+5ogfilNEE+wHOc1KX6le1roo7FMt/oZanvjNh9r+sfTBBkfwCs4LZ6tVo4oTK/O9No8iNcegRQ6vDSGwHij7/kdBJ8FH2BciqvxmK6ENfTUJFDbS/xSrJdgeSAvELweZXC927DP8NxJEHwX1uBVk0C2QdeimGzEDzu9H8hLYwdCr3cM9GlpTnVpJ9oQgq+0NglI4MW4FiVgSwe77SVY/gtBLwfymr47b3dgug4a49rE8oJnUtCZBkEvL31gibz0/z6NWXTg/6YLGJ9rHJJ2Yj+9nJycTP70B9GqPIh6BqoXAAAAAElFTkSuQmCC" alt = "logo do site">
+                <!--Título da página-->
+                <h2>Rastreio Xpress</h2>
+            </div>
+            <!--Fim logo da página-->
+            <!--Barra de navegação-->
+            <nav>
+                <div id = "nav-bar">
+                    <ul>
+                        <a href = "/HTML/Index.html"><li class = "menu">Home</li></a><!--Home-->
+                        <a href = "/HTML/sobreNos.html"><li class = "menu">Sobre nós</li></a><!--sobre nós-->
+                        <a href = "#"><li class = "menu">Parceiros</li></a><!--Parceiros-->
+                        <a href = "/HTML/ajuda.html"><li class = "menu">Ajuda</li></a><!--Ajuda-->
+                    </ul>
+                </div>
+            </nav>
+            <!--Fim da Barra de navegação-->
+            <!--Area de login e cadastro-->
+            <div id = "login">
+                <input type = "button" value = "Entrar" id="entrar"><!--Button login-->
+                <input type = "button" value = "Cadastrar" id="cadastrar"><!--Button Cadastro-->
+            </div>
+            <!--Fim área de login-->
+        </header>
+        <!--Conteudo principal-->
+        <main>
+            <section>
+                <!--Titulo em destaque da pagina-->
+                <div id = "titulo-pagina">
+                    <h2>A plataforma de rastreamento mais completa do mercado</h2>
+                </div>
+                <!--Subtitulo da pagina-->
+                <div id = "subtitulo">
+                    <p class = "texto">O Melhor Rastreio controla todos os envios postados na Azul Cargo Express e Correios.</p>
+                </div>
+                <!--Texto explicativo-->
+                <div id = "texto-parceiros">
+                    <p class = "texto">Porém, quem faz envios com etiquetas geradas na plataforma do Melhor Envio também consegue rastrear encomendas enviadas pela Jadlog, Buslog, Via Brasil e <span class = "uppercase">Latam</span> Cargo</p>
+                </div>
+                <div id = "parcerias">
+                    <!--Imagens das logos dos parceiros da empresa-->
+                    <div class="parceiros">
+                        <!--Logo Jet Express-->
+                        <img src = "/Image/jet-logo.jpeg">
+                    </div>
+                    <div class="parceiros">
+                        <!--Logo Azul Cargo-->
+                        <img src = "/Image/azul-cargo-logo.png">
+                    </div>
+                    <div class="parceiros">
+                        <!--Logo BusLog-->
+                        <img src = "/Image/logo-buslog.jpg">
+                    </div>
+                    <div class="parceiros">
+                        <!--Logo Correios-->
+                        <img src = "/Image/correios-logo.png">
+                    </div>
+                </div>
+            </section>
+            <!--Posicionar a imagem lateralmente na página-->
+            <aside>
+                <div id="imagem-lateral">
+                    <!--Imagem posicionada lateralmente-->
+                    <img src = "/Image/image_green_background.png" alt = "Personagem da empresa"><!--Imagem de fundo-->
+                </div> 
+            </aside>    
+        </main>
+        <!--Fim do conteudo principal-->
+            <!--Rodape da página-->
+        <footer>
+            <div id = "page-footer">
+                <!--Menu de navegação no rodape-->
+                <nav>
+                    <div id = "list-footer">
+                        <ul id = "ul-footer">
+                            <a href = "/HTML/Index.html"><li class = "li-footer">Home</li></a><!--Item do menu navegacao-->
+                            <a href = "/HTML/sobreNos.html"><li class = "li-footer">Sobre nós</li></a><!--Item do menu navegacao-->
+                            <a href = "#"><li class = "li-footer">Parceiros</li></a><!--Item do menu navegacao-->
+                            <a href = "/HTML/ajuda.html"><li class = "li-footer">Ajuda</li></a><!--Item do menu navegacao-->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+        <!--Fim do rodape da página-->
+    </body>
+</html>

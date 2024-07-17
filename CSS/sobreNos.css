@@ -1,0 +1,178 @@
+/* Reset e configuracao geral da pagina */
+*{
+    padding: 0px; /* Reset padding */
+    margin: 0px; /* Reset margin */
+    border: box-sizing;
+    font-family: Helvetica, sans-serif; /* Configurar a fonte de todas as letras */
+}
+
+/* Cabecalho */
+header{
+    position: fixed; /* Determinar que o menu fique fixo, em um futuro scroll*/
+    top:0px; /* Margem top 0 */
+    width: 100%; /* Vai ocupar 100% da largura do body */
+    height: 50px; /* Altura do cabecalho */
+    z-index: 1; /* Vai permitir ao cabecalho se sobrepor aos outros elementos do codigo, pois ele esta com o numero de empilhamento superior aos demais */
+    display: flex; /* Campos do header em paralelo */
+    justify-content: space-between; /* espacar os elementos, preenchendo toda a largura do cabecalho */
+    background-color: #fff; /* Cor de fundo do cabecalho */
+    border-bottom: 1px solid #f3ecec; /* Borda no final do cabecalho */
+}
+
+/* Logo da pagina */
+#logo{
+    display: flex; /* Elementos que compoe a logo vao ficar em paralelo */
+    padding: 0 2rem; /* Espacamento da margem left */
+} 
+
+h2{
+    padding: 1rem; /* Centralizar o nome da empresa com a logo */
+    font-size: 20px; /* Tamanho da fonte da letra*/ 
+    color: #004AAD; /* Cor da letra */ 
+}
+/* Fim do logo da pagina */
+
+/* Menu de navegacao*/
+ul{
+    display: flex; /* Itens da lista em paralelo */
+}
+
+.menu{
+    padding: 1rem; /* Centralizar a lista menu com a logo */
+    list-style: none; /* Remover o estilo (pontos) da lista*/
+    color: #004AAD; /* Cor da letra */
+    font-weight: bold; /* Menu em negrito */
+}
+
+#nav-bar a{
+    text-decoration: none; /* Remover o estilo (underline) do link */
+}
+
+.menu:hover{ /* Interacao assim que o mouse passar por cima dos campos da area de menu*/
+    color: #053e88; /* Cor da letra com a interacao*/
+    text-decoration: underline; /* Adicionar underline ao item menu*/
+    text-transform: ease .3; /* Diminuir o tempo de interacao */
+}
+/* Fim do menu de navegacao */
+
+/* Input da area de login e cadastro */
+
+#login{
+    padding: 0 2rem; /* Espacamento da margem right */
+}
+
+#entrar{
+    height: 35px; /* Altura do button */
+    width: 80px; /* Largura do button */
+    margin-top: .4rem; /* Margem referente ao elemento acima */
+    border-radius: 15px; /* Borda redonda */
+    border-color: #d4d1d1; /* Cor da borda */
+    font-size: 15px; /* Tamanho da fonte da letra */
+    color: #2bc866; /* Cor da letra */
+    background-color: #fff; /* Cor de fundo do button */
+}
+
+#entrar:hover{
+    cursor: pointer;
+    border-radius: 15px; /* Borda redonda */
+    border-color: #2bc866; /* Cor da borda */
+    color: #1a9047; /* Cor da letra */
+    font-weight: bold; /* Letra em negrito */
+}
+
+#cadastrar{
+    height: 35px; /* Altura do button */
+    width: 150px; /* Largura do button */
+    border-radius: 15px; /* Borda redonda */
+    border-color: #f1f0f0; /* Cor da borda */
+    font-size: 15px; /* Tamanho da fonte da letra */
+    color: #fff; /* Cor da letra */
+    background-color: #1a9047; /* Cor de fundo do button */
+}
+
+#cadastrar:hover{ /* Os elementos abaixo sofrendo uma mudanca assim que o cursor passar sob os mesmos */
+    cursor: pointer; /* Adicionar um cursor de "click */
+    background-color: #2bc866; /* Cor de fundo do input */
+    color:#f3ecec; /* Cor da letra */
+    font-size: 15.5px; /* Fonte da letra */
+    border: none; /* Vai remover a borda */
+}
+
+/* Fim da area de login e cadastro */
+
+/*  Fim do cabecalho */
+
+/* Conteudo principal */
+main{
+    margin-top: 5rem; /* Aplicar uma margem do elemento acima dele */
+    text-align: center; /* Centralizar o conteudo na pagina */
+}
+
+.titulos-servicos{
+    padding-bottom: 2rem; /* Espaçamento sob o elemento abaixo */
+    color: #2bc866; /* Cor da letra do subtitulo */
+} 
+
+#servicos{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
+
+.subtitle{
+    width: 350px;
+}
+
+/* Titulos em destaque da pagina */
+.titulos{
+    padding-bottom: 1.5rem;/* Espacamento sob o elemento abaixo */
+    color: #2bc866; /* Cor da letra */
+}
+
+#cadastre{
+    height: 35px; /* Altura do button */
+    width: 150px; /* Largura do button */
+    margin-bottom: 1rem; /* Margem sob o elemento abaixo */
+    background-color:#2bc866; /* Cor de fundo do button */
+    border: 1px solid #d4d1d1; /* Borda do button */
+    color: #fff; /* Cor da letra */
+    font-size: 14px; /* Tamanho da fonte da letra*/
+    font-weight: bold; /* Letra em negrito */
+}
+
+#cadastre:hover{ /* Os elementos abaixo sofrendo uma mudanca assim que o cursor passar sob os mesmos */
+    cursor: pointer; /* Adicionar um cursor de "click */
+    background-color: #1a9047; /* Cor de fundo do button */
+}
+
+/* Fim do conteudo principal */
+
+/* Rodape da pagina */
+footer{
+    height: 200px; /* Tamanho do rodape */
+    background-color: #1a9047; /* Cor de fundo do rodape */
+}
+
+#ul-footer{
+    display: block; /* Transforma a lista em bloco (um abaixo do outro) */
+    text-align: center; /* Centralizar a lista no rodape */
+    padding: 1.5rem 0; /* Espacamento dos itens da lista, em relacao ao topo do rodape */
+}
+#ul-footer li{
+    padding: .5rem; /* Espacamento entre os itens da lista */
+    font-size: 20px; /* Tamanho da letra */
+    font-weight: bold; /* Letra em negrito */
+    text-transform: uppercase; /* Transforma as letras em maiusculas*/
+    color: #fff; /* Cor da  letra */
+}
+
+#ul-footer li:hover{  /* Os elementos abaixo sofrendo uma mudanca assim que o cursor passar sob os mesmos */
+    color: #004AAD; /* Cor da letra */
+    transition-duration: ease .3; /* Diminuir o tempo de interacao */
+}
+
+#ul-footer a{
+    text-decoration: none; /* Remover o estilo (underline) do link */
+}
+
+/*Fim do rodape da pagina*/
